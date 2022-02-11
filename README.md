@@ -14,17 +14,17 @@ If no argument is passed, the current folder will be used as the argument.
 
 ### Commands
 
--`CLONE [path]`
+- `CLONE [path]`
     - Copies the specified folder into the current folder and sets up gitch.txt files for other commands.
     - If no path is specified, user input will be prompted for.
--`OPEN [file/folder name]`
+- `OPEN [file/folder name]`
     - Opens the corresponding specified file or folder in the mirror using the default program.
--`PULL [file/folder name]`
+- `PULL [file/folder name]`
     - Copies the specified file or folder from the mirror into the current folder.
--`PUSH [file/folder name]`
+- `PUSH [file/folder name]`
     - Copies the specified file or folder into the mirror.
     - If the current folder does not exist in the mirror, the folder, and any parent folders that also do not exist, will be made in the mirror.
--`REMOVE [file/folder name]`
+- `REMOVE [file/folder name]`
     - Deletes the specified file or folder from the mirror.
 
 ## Context Menu
